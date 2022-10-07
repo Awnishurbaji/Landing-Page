@@ -1,0 +1,123 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+.header{
+    display: flex;
+    flex-direction: column;
+    background-color: #1f2937;
+    margin: 0;
+    padding: 10px;
+
+}
+.links
+{
+    display: flex;
+    gap: 24px;
+}
+a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #e5e7eb;
+    gap: 300px;
+}
+
+#frstimg{
+    display: flex;
+    height: 200px;
+    width: 250px;
+    background-color: gray;
+}
+.top
+{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin: -5px
+    
+}
+.bottom
+{
+    display: flex;
+    justify-content: center;
+    gap: 360px;
+
+}
+#button{
+    background-color: #3882f6;
+    border-radius: 12px;
+    border: none;
+    padding: 20px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: -10px;
+}
+#button1{
+    background-color: #3882f6;
+    border-radius: 12px;
+    padding: 20px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: -10px;
+    border-color: white;
+    color: white;
+}
+.part2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.cards{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+#cimg{
+width: 200px;
+height: 200px;
+border: 5px solid rgb(15, 8, 85);
+border-radius: 24px;
+}
+.text{
+ text-align: center;
+}
+.part3
+{
+    display: flex;
+    flex-grow: 1;
+    background-color: #e5e7eb;
+    width: 2140px;
+    height: 300px;
+}
+#p1id{
+    text-align: center;
+}
+.part4{
+display: flex;
+justify-content: center;
+}
+#rectangle{
+  display: flex;
+    justify-content: center;
+    width: 700px;
+    height: 115px;
+    background-color: #3882f6;;
+    margin: 48px;
+    gap: 48px;
+}
+#recitems{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    gap: 100px;
+    align-self: center;
+}
+.part5{
+    display: flex;
+    justify-content: center;
+    background-color: #1f2937;
+    color: white;
+    padding: 15px;
+    margin-bottom: -18px;
+}
